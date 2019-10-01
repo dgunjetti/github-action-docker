@@ -6,7 +6,7 @@ jobs:
     steps:
     - name: hello world action step
       id: hello
-      uses: github-action-docker/action.yaml
+      uses: actions/hello_world
       with: 
         who-to-greet: 'mona the octocat'
     - name: Get the output name
