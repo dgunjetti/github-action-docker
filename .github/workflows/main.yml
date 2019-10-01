@@ -6,7 +6,7 @@ jobs:
     steps:
     - name: hello world action step
       id: hello
-      uses: actions/github-action-docker@v1
+      uses: dgunjetti/github-action-docker@v1
       with: 
         who-to-greet: 'mona the octocat'
     - name: Get the output name
